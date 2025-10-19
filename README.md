@@ -16,31 +16,6 @@ Sistem web sederhana untuk manajemen sekolah dengan fitur CRUD untuk siswa, gu
 
 ---
 
-## 🗂️ Struktur Folder  
-…
-FULLCRUD/
- ├── src/
- │   ├── config/
- │   │   ├── loginSistem.php
- │   │   ├── logoutSistem.php
- │   ├── siswaCrud/
- │   │   ├── dashboard.php
- │   ├── guruCrud/
- │   │   ├── dashboard.php
- │   ├── jurusanCrud/
- │   │   ├── dashboard.php
- │   ├── mapelCrud/
- │   │   ├── dashboard.php
- │   ├── ekstraCrud/
- │   │   ├── dashboard.php
- │   ├── koneksi.php
- │   ├── dashboard.php
- │   ├── index.php  (halaman login)
- │   ├── output.css  (hasil build Tailwind)
- └── …
-
----
-
 ## 🛠️ Setup & Instalasi  
 1. Instal XAMPP (Apache + MySQL) dan aktifkan Apache & MySQL.  
 2. Buat database (misalnya: `sekolah_db`) melalui PhpMyAdmin.  
