@@ -18,7 +18,7 @@ Sistem web sederhana untuk manajemen sekolah dengan fitur CRUD untuk siswa, gu
 
 ## 🛠️ Setup & Instalasi  
 1. Instal XAMPP (Apache + MySQL) dan aktifkan Apache & MySQL.  
-2. Buat database (misalnya: `sekolah_db`) melalui PhpMyAdmin.  
+2. Buat database (misalnya: `sekolah`) melalui PhpMyAdmin.  
 ```sql
 -- SQL Dump: Struktur Database Sekolah (tanpa data)
 -- Dibersihkan untuk keperluan publik / share project
