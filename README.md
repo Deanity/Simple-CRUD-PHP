@@ -112,6 +112,21 @@ ALTER TABLE `siswa`
 ```
 3. Import script SQL untuk tabel‑tabel: siswa, guru, jurusan, mapel, ekstra, users.  
 4. Ubah konfigurasi koneksi di `koneksi.php`.
+```php
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$database = "sekolah";
+
+$conn = new mysqli($servername, $username, $password, $database);
+
+if ($conn->connect_error) {
+    die("❌ Koneksi gagal: " . $conn->connect_error);
+}
+  echo "Koneksi berhasil!";
+?>
+```
 5. Akses melalui browser ke `http://localhost/FULLCRUD/src/index.php`.  
 6. Setelah login, kelola data melalui panel admin.
 
