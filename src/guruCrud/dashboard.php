@@ -200,7 +200,7 @@ if (empty($visibleCols) && !empty($guru)) {
         <div class="flex items-center gap-3 mb-6">
             <div class="hidden md:block">
                 <h1 class="text-lg font-semibold tracking-wide text-cyan-300">SMK TI Bali Global</h1>
-                <p class="text-xs text-slate-400">Guru Panel</p>
+                <p class="text-xs text-slate-400">Admin Panel</p>
             </div>
         </div>
 

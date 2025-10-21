@@ -59,7 +59,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'])) {
         $stmt->bind_param("sssi", $nama, $jadwal, $guru, $id);
         if (!$stmt->execute()) {
             respond_json(['success' => false, 'message' => 'Gagal memperbarui data.']);
-        }
+        }  
         $res = $conn->prepare("SELECT * FROM ekstra WHERE id = ?");
         $res->bind_param("i", $id);
         $res->execute();
